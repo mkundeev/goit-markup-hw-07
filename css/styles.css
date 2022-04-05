@@ -33,12 +33,6 @@ p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-/* :active,
-:hover,
-:focus {
-  outline: 0;
-  outline-offset: 0;
-} */
 
 .text {
   margin-top: 0;
