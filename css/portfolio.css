@@ -187,46 +187,6 @@ a {
   margin-bottom: 20px;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.section__title {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.17;
-  color: var(--title-text-color);
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 0;
-}
-
-.section--no-padding-top {
-  padding-top: 0;
-}
-
-.section--no-padding-top__title--visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
-  margin: -1px;
-}
-
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-
 .button {
   font-family: inherit;
   color: var(--title-text-color);
@@ -547,5 +507,45 @@ a {
   fill: #fff;
   margin-left: 10px;
   height: 24px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section__title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  color: var(--title-text-color);
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.section--no-padding-top {
+  padding-top: 0;
+}
+
+.section__title--visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=portfolio.css.map */

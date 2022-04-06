@@ -12,7 +12,7 @@
     }
     &--no-padding-top {
         padding-top: 0;
-
+    }
     &__title--visually-hidden {
         position: absolute;
         white-space: nowrap;
@@ -24,7 +24,7 @@
         clip: rect(0 0 0 0);
         clip-path: inset(50%);
         margin: -1px;
-    }
+    
     }
 }
 
