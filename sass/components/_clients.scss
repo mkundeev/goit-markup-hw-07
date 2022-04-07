@@ -1,10 +1,13 @@
 .client-list {
     display: flex;
     margin-left: -30px;
+    flex-wrap: wrap;
+    margin-bottom: -30px;
 
     &__item {
-        flex-basis: calc(100% / 6 - 30px);
+        flex-basis: calc(100% / 2 - 30px);
         margin-left: 30px;
+        margin-bottom: 30px;
     }
     
     &__icon {

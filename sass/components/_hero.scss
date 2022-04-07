@@ -1,10 +1,7 @@
 .hero {
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    
 
-    max-width: 1600px;
-    max-height: 600px;
+    max-width: 480px;
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient(to right,
@@ -14,19 +11,26 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--footer-hero-background-color);
+    background-size: cover;
 
     &__title {
         color: var(--primery-background-color);
-        font-size: 44px;
+        font-size: 26px;
         font-weight: 900;
         text-transform: uppercase;
         letter-spacing: 0.06em;
-        line-height: 1.36;
+        line-height: 1.61;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 30px;
         margin-top: 0;
-        width: 696px;
+        width: 360px;
     }
+}
+.container--hero {
+text-align: center;
+padding-top: 118px;
+padding-bottom: 118px;
+
 }

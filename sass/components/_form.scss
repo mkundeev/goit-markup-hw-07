@@ -1,7 +1,7 @@
 .sign-form {
     display: flex;
     flex-direction: column;
-    width: 448px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 
@@ -9,7 +9,7 @@
         font-size: 20px;
         font-weight: 700;
         color: #212121;
-        line-height: 1.17;
+        line-height: 1.5;
         text-align: center;
         margin-bottom: 12px;
     }
@@ -79,6 +79,7 @@
 
 
 .sign-form-icon {
+    display: block;
     width: 18px;
     height: 18px;
     position: absolute;
@@ -98,14 +99,16 @@
     &__text,
     &__input {
         display: inline-block;
-        font-size: 14px;
-        line-height: 1.71;
+        font-size: 12px;
+        line-height: 1.17;
         vertical-align: middle;
+        letter-spacing: 0.03em;
     }
     &__link {
         color: var(--accent-color);
         text-decoration: underline;
-        font-size: 14px;
+        font-size: 12px;
+        letter-spacing: 0.03em;
     }
     
     &__icon {
